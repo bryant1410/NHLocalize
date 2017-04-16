@@ -1,7 +1,7 @@
 NHLocalize
 ==========
 
-##What is?
+## What is?
 NHLocalize help you to localize your apps, without coding for all propreties like this:
 
 ```objective-c
@@ -10,7 +10,7 @@ NHLocalize help you to localize your apps, without coding for all propreties lik
 
 Using NHLocalize you can do it through Storyboard....
 
-##How Install?
+## How Install?
 
 
 ### Installation with CocoaPods
@@ -30,14 +30,14 @@ pod "NHLocalize", "~> 1.1.0"
   1. Drag an drop NHLocalize folder into your project;
 
 
-##How to use?
-###Create Localizable.strings
+## How to use?
+### Create Localizable.strings
 Create the `Localizable.strings`, as you know. If you don't read it first: <a href>(http://www.raywenderlich.com/2876/localization-tutorial-for-ios)</a>
   
   <img src="https://github.com/nthegedus/NHLocalize/blob/master/Example/NHLocalize/Localizable.png?raw=true"/>
 
 
-###Let's get start  
+### Let's get start  
 Now, go to your `Storyboard`, select you object (in my case is an UILabel) and open `Identity Inspector`.
   On `Key Path` add the tag <b>nhlLabel</b>. `Type` change to <b>String</b>. And in `Value` you need to add the key you've created on `Localizable.strings`, in this case I added LABEL.
 
@@ -77,7 +77,7 @@ For placeholder use `nhlTextFieldPlaceholder` on Key Path.
 ### Localize UITextView
 For UITextView use `nhlTextView` on Key Path
 
-##Note
+## Note
 You can use it with <b>UILabel</b>, <b>UIButton</b>, <b>UITextField</b>, <b>UITextView</b>, <b>UIImageView</b> and <b>UISegmentedControl</b>.
 Test and working on <b>iOS 6</b> and <b>iOS 7</b>.
   
